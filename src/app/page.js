@@ -1,5 +1,6 @@
 "use client";
 
+import TokenCreationForm from "../components/TokenCreationForm";
 import { WalletConnectButton } from "../components/WalletConnectButton";
 import { WalletInfo } from "../components/WalletInfo";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <h1 className="text-3xl font-bold mb-6">🪙 Sol Launchpad</h1>
       <WalletConnectButton />
       <WalletInfo />
+      <TokenCreationForm />
     </main>
   );
 }
